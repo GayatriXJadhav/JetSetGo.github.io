@@ -1,0 +1,23 @@
+{
+  "name": "jetsetgo.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "client": "npm start --prefix client",
+    "server": "npm start --prefix server",
+    "install": "npm install --prefix server && npm install --prefix client",
+    "start": "npm run server&& npm run client"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/piy1577/JetSetGo.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/piy1577/JetSetGo.github.io/issues"
+  },
+  "homepage": "https://github.com/piy1577/JetSetGo.github.io#readme"
+}
